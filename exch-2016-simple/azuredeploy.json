@@ -5,25 +5,29 @@
     "adminUsername": {
       "type": "string",
       "metadata": {
-        "description": "The name of the administrator account of the new VM and domain"
+        "description": "The name of the administrator account of the new VM and domain",
+        "defaultValue": "global"
       }
     },
     "adminPassword": {
       "type": "securestring",
       "metadata": {
-        "description": "The password for the administrator account of the new VM and domain"
+        "description": "The password for the administrator account of the new VM and domain",
+        "defaultValue": "Microsoft Azure"
       }
     },
     "domainName": {
       "type": "string",
       "metadata": {
-        "description": "The FQDN of the Active Directory Domain to be created"
+        "description": "The FQDN of the Active Directory Domain to be created",
+        "defaultValue": "worknet.local"
       }
     },
     "dnsPrefix": {
       "type": "string",
       "metadata": {
-        "description": "The DNS prefix for the public IP address used by the Load Balancer"
+        "description": "The DNS prefix for the public IP address used by the Load Balancer",
+        "defaultValue": "exch2016"
       }
     },
     "windowsserver":{
