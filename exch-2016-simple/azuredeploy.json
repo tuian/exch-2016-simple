@@ -5,7 +5,7 @@
     "adminUsername": {
       "type": "string",
       "metadata": {
-        "description": "The name of the administrator account of the new VM and domain",
+        "description": "The name of the administrator account of the new VM and domain"
       }
     },
     "adminPassword": {
@@ -17,7 +17,7 @@
     "domainName": {
       "type": "string",
       "metadata": {
-        "description": "The FQDN of the Active Directory Domain to be created",
+        "description": "The FQDN of the Active Directory Domain to be created"
       }
     },
     "dnsPrefix": {
