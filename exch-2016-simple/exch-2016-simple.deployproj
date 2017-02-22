@@ -41,7 +41,7 @@
   <Target Name="GetReferenceAssemblyPaths" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties README_1md__JSONSchema="mark" />
+      <UserProperties />
     </VisualStudio>
   </ProjectExtensions>
 </Project>
