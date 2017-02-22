@@ -206,6 +206,8 @@
       }
     },
     {
+      "type": "Microsoft.Compute/virtualMachines",
+      "name": "[variables('mgmtVMName')]",
       "apiVersion": "2015-06-15",
       "dependsOn": [
         "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName'))]",
@@ -214,10 +216,9 @@
         "[resourceId('Microsoft.Network/loadBalancers', variables('lbName'))]"
       ],
       "location": "[resourceGroup().location]",
-      "name": "[variables('mgmtVMName')]",
       "properties": {
         "hardwareProfile": {
-          "vmSize": "Standard_D2_v2"
+          "vmSize": "Basic_A0"
         },
         "availabilitySet": {
           "id": "[resourceId('Microsoft.Compute/availabilitySets', variables('mgmtAvailabilitySetName'))]"
@@ -295,8 +296,7 @@
             }
           }
         }
-      ],
-      "type": "Microsoft.Compute/virtualMachines"
+      ]
     },
     {
       "type": "Microsoft.Resources/deployments",
