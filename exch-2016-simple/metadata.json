@@ -1,0 +1,7 @@
+﻿{
+  "itemDisplayName": "Create lab environment that's ready to install Exchange 2016",
+  "description": "This template creates a new Azure environment, it configures a VM to be an AD DC for a new Forest. It creates a clean Windows 2016 server to install Exchange 2016 on.",
+  "summary": "This template creates an Azure environment with AD",
+  "githubUsername": "gruberjl",
+  "dateUpdated": "2017-02-22"
+}
