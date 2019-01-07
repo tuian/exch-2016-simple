@@ -47,7 +47,7 @@
       "metadata": {
         "description": "The location of resources, such as templates and DSC modules, that the template depends on"
       },
-      "defaultValue": "https://raw.githubusercontent.com/gitbitorg/exch-2016-simple/master/exch-2016-simple"
+      "defaultValue": "https://raw.githubusercontent.com/tuian/exch-2016-simple/master/exch-2016-simple"
     },
     "_artifactsLocationSasToken": {
       "type": "securestring",
@@ -218,7 +218,7 @@
       "location": "[resourceGroup().location]",
       "properties": {
         "hardwareProfile": {
-          "vmSize": "Basic_A0"
+          "vmSize": "D4_v3"
         },
         "availabilitySet": {
           "id": "[resourceId('Microsoft.Compute/availabilitySets', variables('mgmtAvailabilitySetName'))]"
