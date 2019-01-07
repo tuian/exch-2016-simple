@@ -218,7 +218,7 @@
       "location": "[resourceGroup().location]",
       "properties": {
         "hardwareProfile": {
-          "vmSize": "D4_v3"
+          "vmSize": "standard_D4_v3"
         },
         "availabilitySet": {
           "id": "[resourceId('Microsoft.Compute/availabilitySets', variables('mgmtAvailabilitySetName'))]"
